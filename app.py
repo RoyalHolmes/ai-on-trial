@@ -25,8 +25,8 @@ view = st.sidebar.radio("Go to:", ["Home", "Search Cases", "Global Map", "Trends
 # Ensure filtered_df is always available
 filtered_df = df.copy()
 
-# Sidebar filters (only for "Search Cases" and "Trends Over Time")
-if view in ["Search Cases", "Trends Over Time"]:
+# Sidebar filters (only for "Search Cases")
+if view in ["Search Cases"]:
     st.sidebar.title("Filter Cases")
     search_term = st.sidebar.text_input("Search by case or summary")
 
