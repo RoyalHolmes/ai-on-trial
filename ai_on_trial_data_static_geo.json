@@ -1770,8 +1770,8 @@
   {
   "region": "European Union",
   "court": "Court of Justice of the European Union",
-  "caseName": "Case C-203/25",
-  "year": 2021,
+  "caseName": "Case C-203/22",
+  "year": 2025,
   "issue": "Automated decision",
   "finalDecision": "Yes",
   "summary": "The complainant sought meaningful information about the automated profiling that led to her credit denial, but the data controller refused full disclosure, citing trade secrets. The Court ruled that Article 15(1)(h) GDPR grants data subjects a right to an explanation of the logic behind automated decision-making, especially where such decisions significantly affect them. This right is instrumental for exercising Article 22(3) GDPR, expressing one’s view and contesting the decision, which would be ineffective without understanding how the decision was reached; thus, “meaningful information” must explain the procedure and principles used, in an intelligible and accessible manner.",
