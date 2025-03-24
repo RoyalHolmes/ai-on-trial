@@ -58,6 +58,15 @@ if view == "Search Cases":
 # --- Main Views ---
 
 if view == "Home":
+    total_cases = len(df)
+    unique_issues = df['issue'].nunique()
+    countries = df['region'].nunique()
+
+    col1, col2, col3 = st.columns(3)
+    col1.metric("📁 Total Cases", total_cases)
+    col2.metric("🧠 AI-Related Issues", unique_issues)
+    col3.metric("🌍 Countries/Regions", countries)
+    
     st.markdown("""
     # 🤖 AI on Trial
 
