@@ -66,6 +66,10 @@ if view == "Home":
     col1.metric("📁 Total Cases", total_cases)
     col2.metric("🧠 AI-Related Issues", unique_issues)
     col3.metric("🌍 Countries/Regions", countries)
+    top_issues = df['issue'].value_counts().head(3)
+    st.markdown("### 🔍 Top 3 Issues")
+    for issue, count in top_issues.items():
+        st.write(f"- **{issue}**: {count} cases")
     
     st.markdown("""
     # 🤖 AI on Trial
