@@ -15286,11 +15286,11 @@
       },
       "properties": {
         "name": "Colombia",
-        "cases": 0,
+        "cases": 6,
         "fill_color": [
-          230,
-          230,
-          230
+          120,
+          150,
+          210
         ]
       }
     },
@@ -24223,7 +24223,7 @@
       },
       "properties": {
         "name": "Italy",
-        "cases": 12,
+        "cases": 13,
         "fill_color": [
           120,
           150,
@@ -25304,11 +25304,11 @@
       },
       "properties": {
         "name": "Kenya",
-        "cases": 0,
+        "cases": 5,
         "fill_color": [
-          230,
-          230,
-          230
+          180,
+          200,
+          240
         ]
       }
     },
@@ -42983,11 +42983,11 @@
       },
       "properties": {
         "name": "Uruguay",
-        "cases": 0,
+        "cases": 1,
         "fill_color": [
-          230,
-          230,
-          230
+          180,
+          200,
+          240
         ]
       }
     },
@@ -46349,11 +46349,11 @@
       },
       "properties": {
         "name": "South Africa",
-        "cases": 3,
+        "cases": 7,
         "fill_color": [
-          180,
-          200,
-          240
+          120,
+          150,
+          210
         ]
       }
     },
