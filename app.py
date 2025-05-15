@@ -83,7 +83,7 @@ if view == "Home":
     **AI on Trial** aims to become that resource:  
     A dynamic, open, and evolving portal to understand how AI is being governed through judicial decisions, not just through principles or abstract policy.
 
-    We’ve documented **litigated AI-related cases** in **25 regions** to date (Argentina, Australia, Brazil, Canada, Chile, China, Colombia, European Union, France, Germany, India, Indonesia, Ireland, Italy, Japan, Kenya, Netherlands, Portugal, Singapore, South Africa, South Korea, Spain, United Kingdom, United States and Uruguay).
+    We’ve documented **litigated AI-related cases** in **39 regions** to date (Argentina, Australia, Belgium, Brazil, Canada, Chile, China, Colombia, Czech Republic, Denmark, European Union, Finland, France, Germany, Greece, Hungary, India, Indonesia, Ireland, Israel, Italy, Japan, Kenya, Mexico, Namibia, Netherlands, Pery, Portugal, Russia, Singapore, South Africa, South Korea, Spain, Sweden, Uganda, United Kingdom, United States, Uruguay and Zimbabwe).
 
     This dashboard does **not claim to be exhaustive**. It’s a work in progress, and for now, a **one-person project**. Your suggestions, corrections, and additions are warmly welcomed.
 
