@@ -184,7 +184,7 @@ elif view == "Issue Composition by Country":
     st.title("Issue Composition by Country")
 
     countries = sorted(df["region"].dropna().unique())
-    selected_countries = st.multiselect("Select up to 2 countries:", countries, default=countries[:1])
+    selected_countries = st.multiselect("Select up to 3 countries:", countries, default=countries[:1])
 
     if len(selected_countries) == 1:
         col1, _ = st.columns(2)
@@ -204,6 +204,16 @@ elif view == "Issue Composition by Country":
             fig = px.treemap(issue_counts, path=["Issue"], values="Count", color="Count", color_continuous_scale="Blues")
             col.subheader(selected_countries[idx])
             col.plotly_chart(fig, use_container_width=True)
+            
+    elif len(selected_countries) == 3:
+        col1, col2 = st.columns(3)
+        for idx, col in enumerate([col1, col2, col3]):
+            country_data = df[df["region"] == selected_countries[idx]]
+            issue_counts = country_data["issue"].value_counts().reset_index()
+            issue_counts.columns = ["Issue", "Count"]
+            fig = px.treemap(issue_counts, path=["Issue"], values="Count", color="Count", color_continuous_scale="Blues")
+            col.subheader(selected_countries[idx])
+            col.plotly_chart(fig, use_container_width=True)
 
-    elif len(selected_countries) > 2:
-        st.warning("Please select only up to 2 countries for comparison.")
+    elif len(selected_countries) > 3:
+        st.warning("Please select only up to 3 countries for comparison.")
