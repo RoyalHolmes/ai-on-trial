@@ -169,8 +169,8 @@ elif view == "Trends Over Time":
     )
 
     if group_column:
-    chart = chart.encode(
-        color=alt.Color(group_column, 
+        chart = chart.encode(
+            color=alt.Color(group_column, 
                         scale=alt.Scale(scheme='category20'),  # or 'tableau20', 'set3', etc.
                         legend=alt.Legend(title=group_by)
                        )
