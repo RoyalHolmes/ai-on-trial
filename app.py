@@ -206,7 +206,7 @@ elif view == "Issue Composition by Country":
             col.plotly_chart(fig, use_container_width=True)
             
     elif len(selected_countries) == 3:
-        col1, col2 = st.columns(3)
+        col1, col2, col3 = st.columns(3)
         for idx, col in enumerate([col1, col2, col3]):
             country_data = df[df["region"] == selected_countries[idx]]
             issue_counts = country_data["issue"].value_counts().reset_index()
