@@ -187,13 +187,13 @@ elif view == "Trends Over Time":
     # Add styling for fonts and layout
     chart = chart.properties(
         width='container',
-        height=500
+        height=700
     ).configure_axis(
-        titleFontSize=16,
-        labelFontSize=14
+        titleFontSize=20,
+        labelFontSize=18
     ).configure_legend(
-        titleFontSize=16,
-        labelFontSize=14
+        titleFontSize=20,
+        labelFontSize=18
     ).configure_title(
         fontSize=18
     )
