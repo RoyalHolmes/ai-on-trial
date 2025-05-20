@@ -184,6 +184,20 @@ elif view == "Trends Over Time":
     else:
         chart = chart.mark_bar()
 
+    # Add styling for fonts and layout
+    chart = chart.properties(
+        width='container',
+        height=500
+    ).configure_axis(
+        titleFontSize=16,
+        labelFontSize=14
+    ).configure_legend(
+        titleFontSize=16,
+        labelFontSize=14
+    ).configure_title(
+        fontSize=18
+    )
+
     st.altair_chart(chart, use_container_width=True)
 
 elif view == "Issue Composition by Country":
