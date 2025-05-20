@@ -194,8 +194,8 @@ elif view == "Trends Over Time":
     ).configure_axisX(
         labelAngle=-45  # rotate year labels for readability
     ).configure_legend(
-        titleFontSize=18,
-        labelFontSize=18,
+        titleFontSize=20,
+        labelFontSize=20,
         labelLimit=500,
         symbolSize=150
     ).configure_title(
